@@ -115,8 +115,7 @@ public class Serena extends JavaPlugin implements Reloadable {
     private void registerCommands(PlayerToggleRegistry playerToggleRegistry
         , LanguageConfiguration languageConfiguration
         , PlayerPermissionChecker permissionChecker) {
-
-        Objects.requireNonNull(getCommand("serena")).setExecutor(new SerenaToggleCommand(playerToggleRegistry
+        Objects.requireNonNull(getCommand("hoggyback")).setExecutor(new SerenaToggleCommand(playerToggleRegistry
             , languageConfiguration
             , permissionChecker));
         Objects.requireNonNull(getCommand("serena-reload")).setExecutor(new SerenaReloadCommand(permissionChecker

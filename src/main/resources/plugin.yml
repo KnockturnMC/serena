@@ -4,9 +4,9 @@ version: "${project.version}"
 api-version: "1.15"
 
 commands:
-  serena:
-    description: 'Toggles the state of serena'
-    usage: '/serena'
+  hoggyback:
+    description: 'Toggles the state of hoggyback'
+    usage: '/hoggyback'
     permission: 'serena.toggle'
   serena-reload:
     description: 'Reloads the serena plugin'
